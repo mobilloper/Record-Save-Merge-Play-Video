@@ -25,7 +25,7 @@
 		C0993CC32039D8A200165FCF /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
 		C0993CC42039D8A200165FCF /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		C0993CC92039EF9F00165FCF /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
-		D2A5F2001F4A9144005CD714 /* RWVideoNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWVideoNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A5F2001F4A9144005CD714 /* MVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
-				D2A5F2021F4A9144005CD714 /* RWVideoNinja */,
+				D2A5F2021F4A9144005CD714 /* MVideo */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
 			indentWidth = 2;
@@ -56,12 +56,12 @@
 		D2A5F2011F4A9144005CD714 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2A5F2001F4A9144005CD714 /* RWVideoNinja.app */,
+				D2A5F2001F4A9144005CD714 /* MVideo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2A5F2021F4A9144005CD714 /* RWVideoNinja */ = {
+		D2A5F2021F4A9144005CD714 /* MVideo */ = {
 			isa = PBXGroup;
 			children = (
 				D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */,
@@ -75,15 +75,15 @@
 				5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */,
 				D2A5F20F1F4A9144005CD714 /* Info.plist */,
 			);
-			path = RWVideoNinja;
+			path = MVideo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2A5F1FF1F4A9144005CD714 /* RWVideoNinja */ = {
+		D2A5F1FF1F4A9144005CD714 /* MVideo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "RWVideoNinja" */;
+			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "MVideo" */;
 			buildPhases = (
 				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = RWVideoNinja;
+			name = MVideo;
 			productName = MyRWTutorial;
-			productReference = D2A5F2001F4A9144005CD714 /* RWVideoNinja.app */;
+			productReference = D2A5F2001F4A9144005CD714 /* MVideo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "RWVideoNinja" */;
+			buildConfigurationList = D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "MVideo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2A5F1FF1F4A9144005CD714 /* RWVideoNinja */,
+				D2A5F1FF1F4A9144005CD714 /* MVideo */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = AN8F47TDAW;
-				INFOPLIST_FILE = "$(SRCROOT)/RWVideoNinja/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVideo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.avoca.avoca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = AN8F47TDAW;
-				INFOPLIST_FILE = "$(SRCROOT)/RWVideoNinja/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVideo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.avoca.avoca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "RWVideoNinja" */ = {
+		D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "MVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2A5F2101F4A9144005CD714 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "RWVideoNinja" */ = {
+		D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "MVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2A5F2131F4A9144005CD714 /* Debug */,

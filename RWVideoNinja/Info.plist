@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>RWVideoNinja would like to access to your Photo Library.</string>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>RWVideoNinja would like to access to your Media Library.</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>RWVideoNinja would like to save to your Photo Library.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>RWVideoNinja would like to access your microphone.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>RWVideoNinja would like to use your camera.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -30,6 +20,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>RWVideoNinja would like to access to your Media Library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>RWVideoNinja would like to use your camera.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>RWVideoNinja would like to access your microphone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>RWVideoNinja would like to save to your Photo Library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>RWVideoNinja would like to access to your Photo Library.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -1,0 +1,2 @@
+# Record-Save-Merge-Play-Video
+AV Foundation has grown considerably since then, with well over 100 classes now. This app covers media playback and some light editing to get you started with AV Foundation. In particular, you’ll learn how to:  Select and play a video from the media library. Record and save a video to the media library. Merge multiple videos together into a combined video, complete with a custom soundtrack!
